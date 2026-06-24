@@ -1,4 +1,5 @@
-from tijdreizen import reis_naar_1886
+from tijdreizen import reis_naar_1886, reis_naar_1969
+
 
 
 print("=== CHRONOLAB ===")
@@ -22,8 +23,7 @@ while True:
         reis_naar_1886()
     
     elif keuze == "2":
-        print("\n🚀 Je reist naar 1969...")
-        print("Je staat in een geheime NASA faciliteit.")
+        reis_naar_1969()
 
     elif keuze == "3":
         print("\n💻 Je reist naar 2026...")
