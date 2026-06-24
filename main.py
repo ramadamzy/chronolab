@@ -1,4 +1,4 @@
-from tijdreizen import reis_naar_1886, reis_naar_1969
+from tijdreizen import reis_naar_1886, reis_naar_1969, reis_naar_2026
 
 
 
@@ -26,8 +26,7 @@ while True:
         reis_naar_1969()
 
     elif keuze == "3":
-        print("\n💻 Je reist naar 2026...")
-        print("De toekomst is chaotisch en instabiel.")
+        reis_naar_2026()
 
     elif keuze == "4":
         print("\nJe sluit de tijdmachine. Tot ziens!")

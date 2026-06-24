@@ -20,3 +20,14 @@ def reis_naar_1969():
         print("Goed! Je hebt de communicatie hersteld.")
     else:
         print("Dat antwoord is niet correct.")
+
+def reis_naar_2026():
+    print("\n💻 Je reist naar 2026...")
+    print("De toekomst staat op instorten.")
+
+    antwoord = input("Welk woord gebruik je om computers met elkaar te verbinden? ")
+
+    if antwoord.lower() == "netwerk":
+        print("Goed! Het systeem is hersteld.")
+    else:
+        print("Dat is niet correct.")
