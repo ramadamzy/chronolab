@@ -10,6 +10,8 @@ naam = input("Wat is je naam? ")
 print(f"Welkom {naam}!")
 print("Jouw missie: red de toekomst door tijd te reizen.")
 
+score = 0
+
 while True:
     print("\n=== TIJDREIS MENU ===")
     print("1. Reis naar 1886")
