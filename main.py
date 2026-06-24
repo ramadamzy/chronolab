@@ -18,6 +18,12 @@ while True:
     if keuze == "1":
         print("\n🕰️ Je reist naar 1886...")
         print("Je komt aan in een oud, verlaten laboratorium.")
+
+        antwoord = input ("Puzzel: Wat is 12 + 8?")
+        if antwoord == "20":
+            print("Correct! Je hebt de puzzel opgelost en een aanwijzing gevonden.") 
+        else:
+            print("Helaas, dat is niet correct. Probeer het opnieuw.")        
     
     elif keuze == "2":
         print("\n🚀 Je reist naar 1969...")
